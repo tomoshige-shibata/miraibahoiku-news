@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ミライバ朝刊 2026年6月26日</title>
+<title>ミライバ朝刊 2026年6月29日</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; background: linear-gradient(160deg, #0d2150 0%, #122e64 55%, #1a4a8a 100%); min-height: 100vh; padding-bottom: 40px; }
@@ -12,6 +12,11 @@
   .header-sub { font-size: 10px; color: rgba(218,195,151,0.65); margin-top: 2px; }
   .header-date { font-size: 11px; color: #dac397; font-weight: 700; text-align: right; }
   .header-alert { font-size: 10px; color: #fca5a5; margin-top: 2px; text-align: right; }
+  .cfa-banner { background: rgba(90,110,58,0.25); border: 1px solid rgba(90,110,58,0.5); border-radius: 8px; margin: 14px 14px 0; padding: 10px 14px; }
+  .cfa-banner-title { font-size: 10px; color: #a8c470; font-weight: 700; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+  .cfa-item { font-size: 11px; color: rgba(255,255,255,0.8); padding: 3px 0; border-bottom: 1px solid rgba(255,255,255,0.08); display: flex; gap: 8px; }
+  .cfa-item:last-child { border-bottom: none; }
+  .cfa-date { color: rgba(168,196,112,0.8); white-space: nowrap; font-size: 10px; }
   .body { padding: 16px 14px; }
   .summary-box { background: rgba(218,195,151,0.12); border: 1px solid rgba(218,195,151,0.3); border-radius: 10px; padding: 12px 14px; margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
   .summary-label { font-size: 10px; color: rgba(218,195,151,0.7); margin-bottom: 2px; }
@@ -29,6 +34,7 @@
   .badge-high { background: #fee2e2; color: #991b1b; }
   .badge-mid { background: #fef3c7; color: #92400e; }
   .badge-low { background: #f0fdf4; color: #166534; }
+  .badge-cfa { background: #e8f5e9; color: #2e7d32; }
   .card-title { font-size: 14px; font-weight: 700; color: #122e64; margin-bottom: 6px; line-height: 1.4; }
   .card-body { font-size: 12px; color: #444; line-height: 1.65; margin-bottom: 8px; }
   .card-action { background: #f0f4ff; border-radius: 6px; padding: 6px 10px; font-size: 11px; color: #122e64; display: flex; align-items: flex-start; gap: 6px; margin-bottom: 8px; }
@@ -39,24 +45,37 @@
 </style>
 </head>
 <body>
+
 <div class="header">
   <div>
     <div class="header-title">🌅 ミライバ 朝刊</div>
     <div class="header-sub">保育業界 × 人材サービス 毎朝5分ニュース</div>
   </div>
   <div>
-    <div class="header-date">2026年06月26日（金）</div>
+    <div class="header-date">2026年06月29日（月）</div>
     <div class="header-alert">🔴 重要 5件</div>
   </div>
 </div>
+
+<!-- こども家庭庁 最新リリース速報 -->
+<div class="cfa-banner">
+  <div class="cfa-banner-title">🏛️ こども家庭庁 最新リリース（6/24〜6/26）</div>
+  <div class="cfa-item"><span class="cfa-date">6/26</span><span>黄川田大臣記者会見（令和8年6月26日）掲載</span></div>
+  <div class="cfa-item"><span class="cfa-date">6/26</span><span>日本ユニセフ協会・こども家庭庁共催「こどものけんりプロジェクト」掲載</span></div>
+  <div class="cfa-item"><span class="cfa-date">6/26</span><span>第7回こどもの貧困対策・ひとり親家庭支援部会 会議資料掲載</span></div>
+  <div class="cfa-item"><span class="cfa-date">6/25</span><span>🏫 保育ICTラボ事業 よくある質問を掲載（申請締切：本日6/29）</span></div>
+  <div class="cfa-item"><span class="cfa-date">6/24</span><span>保育業務施設管理プラットフォームの改修業務一式（令和8年度）更新</span></div>
+</div>
+
 <div class="body">
   <div class="summary-box">
     <span style="font-size:20px">💡</span>
     <div>
       <div class="summary-label">今日のひとこと</div>
-      <div class="summary-text">週末前の総点検——DBS・派遣料金適正化・夏の転職ピーク、3つの対応が急務</div>
+      <div class="summary-text">保育ICTラボ申請〆切は本日・求人13,692件・7月転職ピーク突入——週明け即アクション週</div>
     </div>
   </div>
+
   <div class="stats">
     <div class="stat"><div class="stat-value">12<span class="stat-unit">件</span></div><div class="stat-label">総件数</div></div>
     <div class="stat"><div class="stat-value red">5<span class="stat-unit">件</span></div><div class="stat-label">重要</div></div>
@@ -65,108 +84,109 @@
 
   <!-- 政策・規制 -->
   <div class="card" style="border-left:4px solid #5a6e3a">
-    <div class="card-header"><span>📜</span><span class="cat-label" style="color:#5a6e3a">政策・規制</span><span class="badge badge-high">重要</span></div>
-    <div class="card-title">保育現場のハラスメント対策、こども家庭庁が通達</div>
-    <div class="card-body">こども家庭庁が令和8年3月25日付で「保育現場におけるハラスメント対策」に関する事務連絡を発出。顧客（保護者）からのハラスメントも雇用管理上の対応義務が明確化された。施設側の対応負荷が増す一方、「ハラスメント対策を整備している施設」は求職者への訴求力が高まる。</div>
-    <div class="card-action"><span class="action-label">→ アクション</span><span>取引施設のハラスメント対策状況をヒアリングし、整備済み施設を「働きやすい職場」として求人原稿に反映</span></div>
-    <a class="card-source" href="https://www.cfa.go.jp/policies/hoiku" target="_blank">📎 <span>出典：こども家庭庁（令和8年3月25日事務連絡）</span> ↗</a>
+    <div class="card-header"><span>📜</span><span class="cat-label" style="color:#5a6e3a">政策・規制【こども家庭庁】</span><span class="badge badge-high">重要</span></div>
+    <div class="card-title">🚨 本日締切：保育ICTラボ事業の補助申請（6月29日必着）</div>
+    <div class="card-body">こども家庭庁が公募している「保育ICTラボ事業」の補助申請締切が本日6月29日（月）必着。保育分野のICT環境整備のロールモデル創出と横展開を目的とし、働きやすい職場づくりと将来の保育士への魅力発信にも資する事業。取引先施設がICT補助に関心を持っている場合は今日中に案内が必要。</div>
+    <div class="card-action"><span class="action-label">→ アクション</span><span>ICT導入を検討中の取引施設に本日中に連絡——申請支援を通じた関係強化のチャンス</span></div>
+    <a class="card-source" href="https://www.cfa.go.jp/policies/hoiku/hoiku-ictlabo/zyoseikoubo" target="_blank">📎 <span>出典：こども家庭庁「保育ICTラボ事業 公募」（2026年6月25日掲載）</span> ↗</a>
   </div>
 
   <div class="card" style="border-left:4px solid #5a6e3a">
-    <div class="card-header"><span>📜</span><span class="cat-label" style="color:#5a6e3a">政策・規制</span><span class="badge badge-high">重要</span></div>
-    <div class="card-title">派遣料金「適正化」交渉、指針改正から半年——対応状況を確認</div>
-    <div class="card-body">2026年1月の内閣官房・公取委「労務費の適切な転嫁指針」改正から約半年が経過。派遣料金を「値上げ」ではなく「適正化」と位置づけ、交渉を正当化する根拠が整った。未交渉の取引先が残っている場合、下半期契約更新のタイミングが最後の商機となる。</div>
-    <div class="card-action"><span class="action-label">→ アクション</span><span>全取引施設の契約更新時期を確認し、未交渉先への料金適正化の商談を7月中に設定</span></div>
-    <a class="card-source" href="https://mmjinji.com/column/article/311" target="_blank">📎 <span>出典：みなとみらい人事コンサルティング「派遣料金適正化指針（2026年最新）」</span> ↗</a>
+    <div class="card-header"><span>📜</span><span class="cat-label" style="color:#5a6e3a">政策・規制【こども家庭庁】</span><span class="badge badge-mid">注目</span></div>
+    <div class="card-title">こどもの貧困対策・ひとり親家庭支援部会（第7回）資料公開</div>
+    <div class="card-body">こども家庭庁が6月26日、第7回こどもの貧困対策・ひとり親家庭支援部会の会議資料を公開。ひとり親家庭の就労支援・保育サービス利用の優先度など、保育需要に直結する施策の審議が続いている。ひとり親世帯は保育施設の優先入所対象でもあり、保育士採用ニーズの背景要因として押さえておきたい。</div>
+    <div class="card-action"><span class="action-label">→ アクション</span><span>ひとり親支援の拡充を施設向け「保育需要の継続性」説明資料に盛り込む</span></div>
+    <a class="card-source" href="https://www.cfa.go.jp/councils/shingikai/hinkon_hitorioya/5a246038" target="_blank">📎 <span>出典：こども家庭庁（2026年6月26日）</span> ↗</a>
   </div>
 
   <!-- 保育・幼児教育 -->
   <div class="card" style="border-left:4px solid #122e64">
-    <div class="card-header"><span>🏫</span><span class="cat-label" style="color:#122e64">保育・幼児教育</span><span class="badge badge-mid">注目</span></div>
-    <div class="card-title">保育ICT4機能すべて導入、目標20%に対し現状11.7%</div>
-    <div class="card-body">こども家庭庁の委託調査で、保育ICT補助金対象4機能（登降園管理・保育記録・保護者連絡・キャッシュレス）をすべて導入している施設は11.7%にとどまる。令和8年度目標は20%。4機能未導入施設が8割超残っており、導入支援のニーズが高まっている。ICT対応の保育士を紹介できるかが施設選びの新基準に。</div>
-    <div class="card-action"><span class="action-label">→ アクション</span><span>ICTツール経験の有無を求職者ヒアリング項目に追加、対応可能な候補者を優先紹介</span></div>
-    <a class="card-source" href="https://www.codmon.com/column/policy_briefing_2/" target="_blank">📎 <span>出典：コドモン「保育DX解説（2026年5月）」・こども家庭庁委託調査</span> ↗</a>
+    <div class="card-header"><span>🏫</span><span class="cat-label" style="color:#122e64">保育・幼児教育</span><span class="badge badge-high">重要</span></div>
+    <div class="card-title">保育業務施設管理プラットフォーム、令和8年度改修業務が始動</div>
+    <div class="card-body">こども家庭庁が6月24日、「保育業務施設管理プラットフォームの改修業務一式（令和8年度）」を更新・発出。保育DXフェーズ2の中核となる施設管理システムの全国展開に向けた実務整備が本格化。全国の保育施設が同プラットフォームへの対応を求められることになり、ICTリテラシーの高い保育士の需要がさらに高まる。</div>
+    <div class="card-action"><span class="action-label">→ アクション</span><span>「プラットフォーム対応経験あり」の保育士を優先スカウット、施設への訴求材料として活用</span></div>
+    <a class="card-source" href="https://www.cfa.go.jp/procurement" target="_blank">📎 <span>出典：こども家庭庁 調達情報（2026年6月24日）</span> ↗</a>
   </div>
 
   <div class="card" style="border-left:4px solid #122e64">
     <div class="card-header"><span>🏫</span><span class="cat-label" style="color:#122e64">保育・幼児教育</span><span class="badge badge-mid">注目</span></div>
-    <div class="card-title">特定理学療法士等の保育所配置、令和8年4月から特例開始</div>
-    <div class="card-body">こども家庭庁が令和8年4月8日付通知で「保育所等における特定理学療法士等の配置に関する特例」を発出。医療的ケア児・障害児支援の充実を目的に、理学療法士や作業療法士が保育所に関与できる新たな枠組みが始動。障害児受け入れ加算と合わせ、インクルーシブ保育の需要が拡大する。</div>
-    <div class="card-action"><span class="action-label">→ アクション</span><span>医療的ケア経験のある保育士・看護師を求人開拓リストに追加、施設への提案材料として活用</span></div>
-    <a class="card-source" href="https://www.cfa.go.jp/policies/hoiku" target="_blank">📎 <span>出典：こども家庭庁（令和8年4月8日付通知）</span> ↗</a>
+    <div class="card-title">保育士採用、SNS活用が中長期戦略の主流に</div>
+    <div class="card-body">保育士バンク！の最新採用解説で、20〜30代の保育士がInstagram・TikTokを情報収集に活用する割合が増加中と分析。週2〜3回以上の継続投稿で「この園で働きたい」という動機を自然形成できる。即効性より中長期のブランディング手法として、求人原稿・エージェント活動と組み合わせることが有効。</div>
+    <div class="card-action"><span class="action-label">→ アクション</span><span>ミライバ保育のSNS投稿頻度と内容を見直し——週3回以上の保育現場に関連した発信を目標設定</span></div>
+    <a class="card-source" href="https://www.hoikushibank-column.com/column/post_1665" target="_blank">📎 <span>出典：保育士バンク！「保育士の採用方法8選（2026年最新）」</span> ↗</a>
   </div>
 
   <!-- 子育て・少子化 -->
   <div class="card" style="border-left:4px solid #1a4a8a">
-    <div class="card-header"><span>👶</span><span class="cat-label" style="color:#1a4a8a">子育て・少子化</span><span class="badge badge-high">重要</span></div>
-    <div class="card-title">保育士1万人調査「8割以上が賃上げ・配置基準改善を要求」</div>
-    <div class="card-body">弁護士JPニュースが報じた保育士1万人アンケートで、8割以上が「賃上げ・配置基準の改善」を求めていることが判明。「心がポキッと折れた」「月給10万円台で命を預かる」という声も。処遇改善加算が5.3%引き上げられた2026年度でも、「実感がない」という声が依然多く、転職意向につながっている。</div>
-    <div class="card-action"><span class="action-label">→ アクション</span><span>面談で「現在の施設で処遇改善を実感できているか」を必ず確認——転職動機の深掘りに活用</span></div>
-    <a class="card-source" href="https://news.yahoo.co.jp/search?p=%E4%BF%9D%E8%82%B2%E5%A3%AB+%E5%87%A6%E9%81%87%E6%94%B9%E5%96%84" target="_blank">📎 <span>出典：弁護士JPニュース・Yahoo!ニュース（2025年11月）</span> ↗</a>
+    <div class="card-header"><span>👶</span><span class="cat-label" style="color:#1a4a8a">子育て・少子化</span><span class="badge badge-mid">注目</span></div>
+    <div class="card-title">こどもの権利プロジェクト、ユニセフ×こども家庭庁が連携強化</div>
+    <div class="card-body">こども家庭庁が6月26日、日本ユニセフ協会との共催で「こどものけんりプロジェクト」を発表。子どもの権利条約に基づく取り組みを社会全体で推進する方針。保育現場での「子どもの権利」意識の高まりは、保育士に求められる専門性・倫理観への期待にも直結しており、採用・研修面での対応が求められる。</div>
+    <div class="card-action"><span class="action-label">→ アクション</span><span>面談時に「子どもの権利・保育倫理」への意識を確認する項目を追加、施設への定着率向上提案に活用</span></div>
+    <a class="card-source" href="https://www.cfa.go.jp/press/44e89bb7-7ca4-4a9a-ab64-a73750b8cfba" target="_blank">📎 <span>出典：こども家庭庁（2026年6月26日）</span> ↗</a>
   </div>
 
   <div class="card" style="border-left:4px solid #1a4a8a">
-    <div class="card-header"><span>👶</span><span class="cat-label" style="color:#1a4a8a">子育て・少子化</span><span class="badge badge-mid">注目</span></div>
-    <div class="card-title">東京都、産婦健診を10月から公費負担に——保育需要に好影響</div>
-    <div class="card-body">東京都が2026年10月から産婦健診の公費負担を開始。産後うつや虐待の早期発見・予防が目的で全国8割超の自治体が既に実施中。出産・育児への社会的サポートが拡充されることで、保育施設の利用促進につながり、中長期的に保育需要を下支えする効果が期待される。</div>
-    <div class="card-action"><span class="action-label">→ アクション</span><span>子育て支援策の充実を施設への中長期採用計画提案の文脈に組み込む</span></div>
-    <a class="card-source" href="https://sukusuku.tokyo-np.co.jp/birth/107218/" target="_blank">📎 <span>出典：東京すくすく（東京新聞）</span> ↗</a>
+    <div class="card-header"><span>👶</span><span class="cat-label" style="color:#1a4a8a">子育て・少子化</span><span class="badge badge-high">重要</span></div>
+    <div class="card-title">保育士有効求人倍率2.77倍（2025年7月）——売り手市場が長期化</div>
+    <div class="card-body">保育士バンク！の最新採用解説で引用された2025年7月時点の保育士有効求人倍率は2.77倍（全職種平均の2倍超）。年間を通じて売り手市場が継続しており、「採用できない施設は淘汰される」という構造が定着。退職理由の上位は「給与の低さ・仕事量の多さ・人間関係」の順で変わらず。</div>
+    <div class="card-action"><span class="action-label">→ アクション</span><span>施設向け提案で「給与・業務量・人間関係」の3点セットを解決できる採用計画を提示</span></div>
+    <a class="card-source" href="https://www.hoikushibank-column.com/column/post_1665" target="_blank">📎 <span>出典：保育士バンク！「保育士の採用方法8選（2026年最新）」</span> ↗</a>
   </div>
 
   <!-- 人材紹介・派遣 -->
   <div class="card" style="border-left:4px solid #2d6fa3">
     <div class="card-header"><span>🤝</span><span class="cat-label" style="color:#2d6fa3">人材紹介・派遣</span><span class="badge badge-high">重要</span></div>
-    <div class="card-title">正社員不足の企業が51.6%——4年連続で半数超</div>
-    <div class="card-body">帝国データバンクの調査で、正社員が不足していると感じる企業は51.6%と4年連続で半数超。保育施設も例外でなく、「採用できない＝経営リスク」という認識が広がっている。一方、非正社員（パート・派遣）の不足感は改善傾向にあり、正社員採用のニーズに特化したエージェントの価値が高まっている。</div>
-    <div class="card-action"><span class="action-label">→ アクション</span><span>「正社員採用に強いエージェント」としての訴求を施設向け営業の主軸に据える</span></div>
-    <a class="card-source" href="https://jinjibu.jp/tag/?thm=27&type=news" target="_blank">📎 <span>出典：帝国データバンク「雇用過不足調査」・日本の人事部</span> ↗</a>
+    <div class="card-title">保育士採用、「複数手法の組み合わせ」が成功の前提条件に</div>
+    <div class="card-body">保育士バンク！の採用解説で、単一手法への依存リスクを明示。転職フェア＋自園ウェブページ＋リファラル採用の組み合わせがミスマッチ防止に有効と指摘。エージェント活用の強みは「面接日程調整・条件交渉・合否連絡の代行による現場担当者の工数削減」と「マッチング精度の高さ」の2点が明確に整理されている。</div>
+    <div class="card-action"><span class="action-label">→ アクション</span><span>施設への提案資料に「エージェント＋媒体の組み合わせ効果」の比較データを追加して提案力を強化</span></div>
+    <a class="card-source" href="https://www.hoikushibank-column.com/column/post_1665" target="_blank">📎 <span>出典：保育士バンク！「保育士の採用方法8選（2026年最新）」</span> ↗</a>
   </div>
 
   <div class="card" style="border-left:4px solid #2d6fa3">
     <div class="card-header"><span>🤝</span><span class="cat-label" style="color:#2d6fa3">人材紹介・派遣</span><span class="badge badge-mid">注目</span></div>
-    <div class="card-title">人材紹介の成長率、派遣を上回る——前年比10%超の年度も</div>
-    <div class="card-body">派遣市場（年3%前後の成長）に対し、人材紹介市場は前年比10%超の成長を示す年度もあり、高成長が継続。企業が採用の質・マッチング精度を重視するトレンドを背景に、紹介事業への投資シフトが加速。保育士特化エージェントにとっては、紹介事業の拡大が最も成長余地の大きな領域となっている。</div>
-    <div class="card-action"><span class="action-label">→ アクション</span><span>紹介事業の月次KPIを派遣と分けて管理し、紹介成約数の目標を下半期で引き上げ</span></div>
-    <a class="card-source" href="https://rpm.zeku.co.jp/column/japan-staffing-market-size" target="_blank">📎 <span>出典：「2026年最新・人材派遣市場規模解説」</span> ↗</a>
+    <div class="card-title">内定辞退率9.3%——「転職ファストパス」構想が業界で注目</div>
+    <div class="card-body">マイナビキャリアリサーチLabが「転職ファストパス」の可能性と課題を分析。内定辞退者に対して次の転職活動を迅速支援する仕組みで、辞退者との関係を「次の候補者接点」として維持する発想。保育士の複数エージェント並行利用が常態化する中、辞退後のフォロー体制が長期的な求職者との関係維持に直結する。</div>
+    <div class="card-action"><span class="action-label">→ アクション</span><span>内定辞退者へのフォローアップ連絡フロー（1ヶ月後・3ヶ月後）を今週中に設計</span></div>
+    <a class="card-source" href="https://career-research.mynavi.jp/column/20260317_108775/" target="_blank">📎 <span>出典：マイナビキャリアリサーチLab（2026年6月更新）</span> ↗</a>
   </div>
 
   <!-- 求人メディア -->
   <div class="card" style="border-left:4px solid #3a82b8">
     <div class="card-header"><span>📋</span><span class="cat-label" style="color:#3a82b8">求人メディア</span><span class="badge badge-mid">注目</span></div>
-    <div class="card-title">リクルートスタッフィング、公取委立入検査から1か月——業界への影響継続</div>
-    <div class="card-body">リクルートスタッフィングが6月2日付で公取委立入検査を公式発表。大手5社への調査が続く中、業界全体で料金設定の透明性確保が急務。各社のコンプライアンス対応コスト増と、ブランドイメージへの影響が継続。中小・特化型エージェントにとっては信頼性を訴求する好機でもある。</div>
-    <div class="card-action"><span class="action-label">→ アクション</span><span>「透明性の高い料金体系」を対外アピールの材料に——施設向けに料金根拠の説明資料を整備</span></div>
-    <a class="card-source" href="https://www.r-staffing.co.jp/corporate/news/" target="_blank">📎 <span>出典：リクルートスタッフィング公式（2026年6月2日）</span> ↗</a>
+    <div class="card-title">保育情報どっとこむ、本日時点で求人13,692件</div>
+    <div class="card-body">保育情報どっとこむの2026年6月29日現在の掲載求人数は13,692件。先週（12,889件）から約800件増加しており、7月に向けた求人掲載が本格化。求人数の増加は施設側の採用意欲の高まりを示しており、エージェントへの問い合わせも増える時期に突入した。</div>
+    <div class="card-action"><span class="action-label">→ アクション</span><span>求人数増加のタイミングに合わせてスカウト配信量を増量、新規求職者の取り込みを加速</span></div>
+    <a class="card-source" href="https://www.hoikujyouhou.com/" target="_blank">📎 <span>出典：保育情報どっとこむ（2026年6月29日現在）</span> ↗</a>
   </div>
 
   <div class="card" style="border-left:4px solid #3a82b8">
     <div class="card-header"><span>📋</span><span class="cat-label" style="color:#3a82b8">求人メディア</span><span class="badge badge-mid">注目</span></div>
-    <div class="card-title">6月の求人は「夏季アルバイト」と「正社員下半期採用」が競合</div>
-    <div class="card-body">トラコム（Indeed代理店）の2026年最新版解説で、6月の求人市場は夏のアルバイト求人と正社員の下半期採用求人が競合し、原稿の訴求設計が難しい時期と分析。保育士正社員採用においては「即入職可」「見学・面接を素早く設定」を打ち出すことで競争優位を確保しやすい。</div>
-    <div class="card-action"><span class="action-label">→ アクション</span><span>求人原稿に「見学は最短3日で設定可」「内定まで最短1週間」などスピード感を明記</span></div>
-    <a class="card-source" href="https://www.tracom.co.jp/tralog/trend6/" target="_blank">📎 <span>出典：トラコム「2026年最新版6月の採用活動」</span> ↗</a>
+    <div class="card-title">保育士転職サイト、求人数1位は「ほいくisお仕事探し」が突出</div>
+    <div class="card-body">保育士転職のいろはの2026年1月調査で、保育士転職サイトの求人数1位は「ほいくisお仕事探し」が突出。2位以下はマイナビ保育士・保育士バンク・レバウェル保育士などが一定のレンジで横並び。エージェントとして差別化するには「求人の質（詳細度・定性情報）」と「サポート体制」が評価軸になる。</div>
+    <div class="card-action"><span class="action-label">→ アクション</span><span>求人原稿の「詳細度」を競合媒体と比較し、給与・ICT環境・残業時間の具体値を必ず記載</span></div>
+    <a class="card-source" href="https://www.excite.co.jp/news/article/Prtimes_2026-02-10-146831-2/" target="_blank">📎 <span>出典：保育士転職のいろは「2026年版比較調査」</span> ↗</a>
   </div>
 
   <!-- 転職・就職 -->
   <div class="card" style="border-left:4px solid #8b6914">
     <div class="card-header"><span>🎯</span><span class="cat-label" style="color:#8b6914">転職・就職</span><span class="badge badge-high">重要</span></div>
-    <div class="card-title">夏ボーナス後の転職ピーク——今週末が母集団形成の最終ライン</div>
-    <div class="card-body">ウマい人事の6月市場動向レポートで、6月末〜7月初頭に転職意向が顕在化する求職者が急増すると分析。「6月中に先行して採用活動を行うことは優秀な人材確保のアドバンテージ」と指摘。新規求人倍率は令和8年3月時点で2.15倍と高水準で、企業間の人材獲得競争が激化している。</div>
-    <div class="card-action"><span class="action-label">→ アクション</span><span>今週末までにスカウト配信・SNS投稿を最大化。来週から始まる7月の転職ピークに備える</span></div>
+    <div class="card-title">7月転職ピーク突入——今週が夏採用の最重要週</div>
+    <div class="card-body">ウマい人事・トラコムの市場動向分析で、7月以降は「求人掲載が増加し採用競争が激化する」と予測。6月末ボーナス支給を受け、転職意向が顕在化した求職者が今週から本格的に活動開始する。「6月中に先行採用した企業がアドバンテージを得る」フェーズは終わり、今週から本番の競争が始まる。</div>
+    <div class="card-action"><span class="action-label">→ アクション</span><span>今週のスカウト・面談数の目標を通常比1.5倍に設定し、全CA・RAで達成状況を日次共有</span></div>
     <a class="card-source" href="https://umai-jinji.jp/column/market-202606/" target="_blank">📎 <span>出典：ウマい人事「2026年6月求人市場動向」</span> ↗</a>
   </div>
 
   <div class="card" style="border-left:4px solid #8b6914">
     <div class="card-header"><span>🎯</span><span class="cat-label" style="color:#8b6914">転職・就職</span><span class="badge badge-mid">注目</span></div>
-    <div class="card-title">組織文化ミスマッチによる早期離職、日本全体で年間9兆円超のコスト</div>
-    <div class="card-body">アデコグループの調査で、組織文化のミスマッチによる早期離職が一部署平均5.8人/年に上り、日本全体の想定コストが年間9兆円超と試算。保育業界でも職場の人間関係・園の文化とのミスマッチが離職の主因の一つ。エージェントが「職場文化の事前マッチング」を提供できれば定着率向上に直結する。</div>
-    <div class="card-action"><span class="action-label">→ アクション</span><span>施設訪問・園長ヒアリングで「職場の雰囲気・文化」を定性情報として蓄積し、候補者へのマッチング精度を上げる</span></div>
-    <a class="card-source" href="https://jinjibu.jp/tag/?thm=27&type=news" target="_blank">📎 <span>出典：アデコグループ調査・日本の人事部</span> ↗</a>
+    <div class="card-title">中途採用実施率45.2%（4月）——下半期に向け採用意欲が高止まり</div>
+    <div class="card-body">マイナビの定点調査で2026年4月の中途採用実施率は45.2%（前月比増）。正社員転職活動実施率も4.5%で前月から増加。企業・求職者ともに下半期スタートに向けた動きが活発化しており、7〜9月は保育士採用の繁忙期になる見通し。採用スピードが成否を左右する。</div>
+    <div class="card-action"><span class="action-label">→ アクション</span><span>選考〜内定のリードタイムを「最短5営業日」を目標に設定、面談調整のスピードを最優先化</span></div>
+    <a class="card-source" href="https://career-research.mynavi.jp/column/20260317_108775/" target="_blank">📎 <span>出典：マイナビキャリアリサーチLab（2026年6月更新）</span> ↗</a>
   </div>
 
   <div class="footer">
-    📡 Web検索をもとにAIが要約・生成しています。出典リンクで原文もご確認ください。<br>
+    🏛️ こども家庭庁公式サイト（cfa.go.jp/news）を毎朝直接確認して生成しています。<br>
+    📡 その他はWeb検索をもとにAIが要約・生成。出典リンクで原文もご確認ください。<br>
     毎朝「本日のニュース」と送ると最新版に更新されます。
   </div>
 </div>
